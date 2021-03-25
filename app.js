@@ -20,7 +20,7 @@ function ButtomLCD(args) {
 
 board.on("ready", function () {
 
-    lcd = new five.LCD({
+    const lcd = new five.LCD({
         // LCD pin name  RS  EN  DB4 DB5 DB6 DB7
         // Arduino pin # 8    9   4   5   6   7
         pins: [8, 9, 4, 5, 6, 7],
@@ -33,7 +33,7 @@ board.on("ready", function () {
 
     sensor.on("change", function () {
 
-        sensorScale = sensor.scaleTo(0, 1023)
+        let sensorScale = sensor.scaleTo(0, 1023)
         lcd.clear();
         lcd.cursor(0, 0).print(ButtomLCD(sensorScale));
     })
