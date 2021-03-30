@@ -1,5 +1,5 @@
-var five = require("johnny-five");
-var board = new five.Board();
+const five = require("johnny-five");
+const board = new five.Board();
 
 function ButtomLCD(args) {
 
