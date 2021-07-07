@@ -13,6 +13,10 @@ Instalando esse exemplo no arduino basta configurar a parte do JS
 
 ## Configuração JavaScript 
 
-yarn 
+```bash
+# install dependencies
+$ yarn 
 
-node app.js
+$ node app.js
+
+```
