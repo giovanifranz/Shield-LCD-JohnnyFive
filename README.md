@@ -1,6 +1,6 @@
 # Shield LCD - Johnny Five
 
-Configutação básica para trabalhar com o Display Lcd Keypad Shield 16x2 do arduino (estou utilizando em um UNO R3).
+Configuração básica para trabalhar com o Display Lcd Keypad Shield 16x2 do arduino (estou utilizando em um UNO R3).
 
 
 ## Configuração Arduino
